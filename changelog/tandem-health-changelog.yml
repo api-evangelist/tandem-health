@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://tandemhealth.ai/resources/release-notes
+scheme: dated-monthly
+title: Product updates and changelog
+note: >-
+  Tandem Health publishes a dated, monthly "What's new" product changelog on its
+  website. This captures the recent window; the live page is the source of truth.
+  Entries below are dated release-note posts (product feature changelog, not an
+  API version history — Tandem publishes no public API).
+entries:
+- date: '2026-07-03'
+  title: "What's new: June 2026"
+  breaking: false
+  highlights:
+  - Clinical Decision Support (Ask Tandem) live for select customers across Europe; ask a clinical question in the same chat that wrote the note, with citations from NICE and national/local guidelines; CE marked under EU MDR as a Class IIa medical device.
+  - Chat and notes shown side by side, with a first-class sidebar chat supporting documents, templates, and standalone chats.
+  - 'The "Adjust" feature now highlights the exact text removed and added when refining a note.'
+- date: '2026-06-15'
+  breaking: false
+- date: '2026-06-03'
+  breaking: false
+- date: '2026-05-04'
+  breaking: false
+- date: '2026-04-01'
+  breaking: false
+- date: '2026-03-09'
+  breaking: false
+- date: '2026-03-01'
+  breaking: false
+- date: '2026-02-01'
+  breaking: false
+- date: '2026-01-02'
+  breaking: false
+- date: '2025-12-03'
+  breaking: false

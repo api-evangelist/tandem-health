@@ -1,8 +1,28 @@
 aid: tandem-health
 name: Tandem Health
-description: 'Tandem Health is a company surfaced as a portfolio company of northzone and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare; ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Tandem Health is a European regulated clinical-AI company whose ambient
+  assistant helps clinicians prepare, document, and follow up on patient visits.
+  Its AI Scribe turns a consultation into a structured medical note, a Coding
+  Assistant suggests diagnosis/procedure codes, and Clinical Decision Support
+  (Ask Tandem) answers clinical questions during the visit with citations from
+  NICE and national/local guidelines. The products are CE marked under EU MDR as
+  Class IIa medical devices, support 50+ specialties, and are used by 5,000+ care
+  organisations across Europe with one-click note transfer to 100+ medical record
+  systems. Tandem Health is backed by Northzone. This API Evangelist profile
+  tracks the company; Tandem Health publishes no public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/zDZ1J3a77DOxPCcSXT4dsOmgU0.png
 url: https://raw.githubusercontent.com/api-evangelist/tandem-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Healthcare; Ai
+- Healthcare
+- AI
+- Clinical Documentation
+- Ambient AI
+- Medical Scribe
+- Clinical Decision Support
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,40 @@ maintainers:
 common:
 - type: Website
   url: https://www.tandemhealth.ai
+- type: Pricing
+  url: https://tandemhealth.ai/product/pricing
+- type: SignUp
+  url: https://app.tandemhealth.ai/signup
+- type: Login
+  url: https://app.tandemhealth.ai/login
+- type: Support
+  url: https://intercom-help.eu/tandem-eu/en/
+- type: Blog
+  url: https://tandemhealth.ai/resources/news
+- type: TermsOfService
+  url: https://tandemhealth.ai/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://tandemhealth.ai/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/tandemhealth
+- type: ChangeLog
+  url: https://tandemhealth.ai/resources/release-notes
+- type: ChangeLog
+  name: Product changelog (captured)
+  url: changelog/tandem-health-changelog.yml
+- type: Compliance
+  url: https://tandemhealth.ai/product/data-security
+- type: TrustCenter
+  url: https://trust.tandemhealth.ai/
+- type: TrustCenter
+  name: Trust center certifications (captured)
+  url: security/tandem-health-trust-center.yml
+- type: Conformance
+  url: conformance/tandem-health-conformance.yml
+- type: DomainSecurity
+  url: security/tandem-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

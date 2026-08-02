@@ -1,0 +1,49 @@
+generated: '2026-07-21'
+method: searched
+source: https://tandemhealth.ai/product/data-security
+summary: >-
+  Tandem Health is a regulated clinical-AI provider. Its published compliance
+  posture centers on EU medical-device regulation (CE marked, EU MDR Class IIa),
+  a quality/information-security/AI/environmental management-system stack of ISO
+  certifications, and healthcare data-protection standards. No cross-cutting API
+  interoperability standards (OAuth2/OIDC/FHIR/SCIM/RFC 9457) are asserted here
+  because the provider publishes no public API surface.
+standards:
+- id: eu-mdr-class-iia
+  conforms: true
+  evidence: CE marked as a Class IIa medical device under EU Medical Device Regulation (AI Scribe, Coding Assistant, Clinical Decision Support)
+- id: iso-13485
+  conforms: true
+  evidence: ISO 13485 quality management system for medical device companies
+- id: iso-27001
+  conforms: true
+  evidence: ISO 27001 information security management, published on data-security page and trust centre
+- id: iso-42001
+  conforms: true
+  evidence: ISO 42001 responsible AI management system
+- id: iso-14001
+  conforms: true
+  evidence: ISO 14001 environmental management system
+- id: gdpr
+  conforms: true
+  evidence: Patient data handled under EU GDPR
+- id: nen-7510
+  conforms: true
+  evidence: NEN 7510 Dutch healthcare information security standard
+- id: nhs-dspt
+  conforms: true
+  evidence: Stated NHS compliant, meeting NHS data and security requirements
+- id: uk-cyber-essentials-plus
+  conforms: true
+  evidence: UK Cyber Essentials Plus, independently verified
+- id: lvv-class-a
+  conforms: true
+  evidence: LVV Class A (Netherlands) medical device registration
+- id: oauth2
+  conforms: false
+- id: oidc
+  conforms: false
+- id: fhir
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
