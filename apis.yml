@@ -11,6 +11,17 @@ description: >-
   organisations across Europe with one-click note transfer to 100+ medical record
   systems. Tandem Health is backed by Northzone. This API Evangelist profile
   tracks the company; Tandem Health publishes no public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
