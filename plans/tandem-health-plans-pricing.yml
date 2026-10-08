@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://tandemhealth.ai/product/pricing
+sources:
+- https://tandemhealth.ai/product/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: true
+note: Page shows yearly/monthly toggle with -15% yearly; only the €125 yearly-billed Pro price is numeric.
+plan_count: 3
+currency: EUR
+plans:
+- name: Free
+  price_text: Free per user/month
+  period: month
+  unit: per user
+  included_quota: Unlimited note generation; up to two custom templates; invite up to two co-workers;
+    Limited daily Pro Actions
+- name: Pro
+  price_text: € 125 per user/month, billed yearly
+  price: 125
+  currency: EUR
+  period: month
+  unit: per user
+  included_quota: Unlimited note and document generation; unlimited Pro Actions; 1-click transfer to 100+
+    medical record systems; unlimited custom templates; clinician-led support
+- name: Enterprise
+  price_text: Tailored price per user/month
+  period: month
+  unit: per user
+  included_quota: Everything in Pro; custom integrations; onboarding; SSO; usage reports
+rate_limit_statements:
+- Limited daily Pro Actions
